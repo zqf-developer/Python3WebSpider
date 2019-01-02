@@ -23,3 +23,7 @@ except urllib.error.URLError as e:
     if isinstance(e.reason, socket.timeout):
         print('TIME OUT')
 
+# request的用法
+request = urllib.request.Request('https://python.org')
+response = urllib.request.urlopen(request)
+print(response.read().decode('utf-8'))

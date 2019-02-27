@@ -3,4 +3,7 @@
     <option name="FONT_SIZE" value="24" />
     <option name="FONT_FAMILY" value="Courier New" />
   </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+  </component>
 </application>
